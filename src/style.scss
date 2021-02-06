@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./FiraCode-Regular.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+$red: blue;
+
+.hello {
+  color: $red;
+  font-family: 'MyFont';
+  background: url('./logo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
